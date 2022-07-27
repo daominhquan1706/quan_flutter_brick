@@ -1,3 +1,6 @@
+import 'package:get/get.dart';
+import '../../models/user_model.dart';
+import '../../services/api_service.dart';
 
 abstract class I{{name.pascalCase()}}Repository  with MBMixinRepository<UserModel> {
 

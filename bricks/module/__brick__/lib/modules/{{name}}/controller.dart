@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'repository.dart';
 
 class {{name.pascalCase()}}Controller extends GetxController {
 
