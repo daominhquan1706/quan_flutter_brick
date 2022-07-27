@@ -1,4 +1,6 @@
 import 'package:json_annotation/json_annotation.dart';
+import 'base_model.dart';
+import 'utils.dart';
 
 part '{{model}}_model.g.dart';
 
@@ -18,7 +20,7 @@ class {{model.pascalCase()}}Model extends BaseModel {
   {{model.pascalCase()}}Model({
     this.id,
     this.createdAt,
-    this.updated
+    this.updatedAt
   });
 
   factory {{model.pascalCase()}}Model.fromJson(Map<String, dynamic> json) =>
