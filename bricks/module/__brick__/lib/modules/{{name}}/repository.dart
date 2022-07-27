@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import '../../models/base_model.dart';
-import '../../models/user_model.dart';
+import '../../models/{{model}}_model.dart';
 import '../../repositories/base_repository.dart';
 import '../../services/api_service.dart';
 
